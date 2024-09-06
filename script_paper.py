@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*
 ##############################################################################
 # A file for testing the Bayes CRB for covariance matrix estimation when
 # data follow a complex Gaussian distribution with an inverse Wishart prior
@@ -18,7 +17,7 @@ import tikzplotlib
 import warnings
 from crb_computation import CRB_Covar_Gaussian_Complex, CRB_Covar_Gaussian_IW_Complex\
     ,ICRB_Covar_Gaussian, ICRB_Covar_Gaussian_IW_Complex
-from basis import generate_covariance_iw_complex, generate_data_for_estimation_complex\
+from data_generation import generate_covariance_iw_complex, generate_data_for_estimation_complex\
     , SCM_MAP_IW_COMPLEX, SCM_MMSE_IW_COMPLEX, SCM, dist_euclidian, dist_HPD, ToeplitzMatrix
 warnings.simplefilter('once', UserWarning)
 
