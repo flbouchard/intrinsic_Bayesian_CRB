@@ -10,3 +10,5 @@ This repository contains four python files:
 * **crb_computation.py**: functions to compute the various Cramér-Rao bounds considered in the paper.
 * **matrix_operators.py**: basic operations on symmetric and Hermitian matrices. Taken from [pyRiemann](https://github.com/alexandrebarachant/pyRiemann/blob/master/pyriemann/utils/base.py "pyRiemann") to avoid dependency.
 
+All credit for this code goes to Guillaume Ginolhac.
+
