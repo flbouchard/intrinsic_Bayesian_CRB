@@ -5,8 +5,8 @@ This is the code corresponding to the article entitled "Intrinsic Bayesian CramÂ
 A link to the actual paper will be added as soon as it is published.
 
 This repository contains four python files:
-* script_paper.py
-* data_generation.py
-* crb_computation.py
-* matrix_operators.py
+* script_paper.py: *main file, script to reproduce the results displayed in the paper.*
+* data_generation.py: *functions to generate data - random covariance matrices and random samples.*
+* crb_computation.py: *functions to compute the various CramÃ©r-Rao bounds considered in the paper.*
+* matrix_operators.py: *basic operations on symmetric and Hermitian matrices. Taken from [pyRiemann](https://github.com/alexandrebarachant/pyRiemann/blob/master/pyriemann/utils/base.py "pyRiemann") to avoid dependency.*
 
