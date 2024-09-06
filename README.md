@@ -1,8 +1,8 @@
 # Intrinsic Bayesian Cramér-Rao bound
 
-This is the code corresponding to the article entitled "Intrinsic Bayesian Cramér-Rao Bound with an Application to Covariance Matrix Estimation" authored by F. Bouchard, A. Renaux, G. Ginolhac and A. Breloy.
+This is the code corresponding to the article entitled ["Intrinsic Bayesian Cramér-Rao Bound with an Application to Covariance Matrix Estimation"](https://arxiv.org/abs/2311.04748 "iBCRB") authored by F. Bouchard, A. Renaux, G. Ginolhac and A. Breloy.
 
-A link to the actual paper will be added as soon as it is published.
+
 
 This repository contains four python files:
 * **script_paper.py**: main file, script to reproduce the results displayed in the paper.
